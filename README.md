@@ -1,9 +1,17 @@
 # 02_LA_CarPricePrediction
-**Project Description**
+
+## Project Description
 
 The client company, which distributes automobiles, is developing an application for lead generation at the moment. The objective of data science project is to build a machine learning model for defining a car price in order to put a correct price to the app.
 
-Features in the data
+## Project Design
+
+- Data quality evaluation, data pre-processing.
+- As a quality metric we use RMSE.
+- For modeling we use the Python library lightGBM for **gradient boosting.
+- For gradient boosting we use built-in Python library LightGBM.
+
+### Features in the data
 
 •	DateCrawled — date of downloading the profile from the database
 
@@ -35,4 +43,5 @@ Features in the data
 
 •	LastSeen — date of last user activity
 
+### Target 
 Target is price (in euro)

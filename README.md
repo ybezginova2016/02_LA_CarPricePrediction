@@ -8,40 +8,40 @@ The client company, which distributes automobiles, is developing an application 
 
 - Data quality evaluation, data pre-processing.
 - As a quality metric we use RMSE.
-- For modeling we use the Python library lightGBM for **gradient boosting.
+- For modeling we use the Python library lightGBM for _gradient boosting_.
 - For gradient boosting we use built-in Python library LightGBM.
 
 ### Features in the data
 
-•	DateCrawled — date of downloading the profile from the database
+•	_DateCrawled_ — date of downloading the profile from the database
 
-•	VehicleType — vehicle body type
+•	_VehicleType_ — vehicle body type
 
-•	RegistrationYear — year of vehicle registration
+•	_RegistrationYear_ — year of vehicle registration
 
-•	Gearbox — type of gearbox
+•	_Gearbox_ — type of gearbox
 
-•	Power — power (hp)
+•	_Power_ — power (hp)
 
-•	Model — car model
+•	_Model_ — car model
 
-•	Kilometer — mileage (km)
+•	_Kilometer_ — mileage (km)
 
-•	RegistrationMonth — month of vehicle registration
+•	_RegistrationMonth_ — month of vehicle registration
 
-•	FuelType — type of fuel
+•	_FuelType_ — type of fuel
 
-•	Brand — car brand
+•	_Brand_ — car brand
 
-•	NotRepaired — Was the car under repair? Yes / No
+•	_NotRepaired_ — Was the car under repair? Yes / No
 
-•	DateCreated — date of creation of the questionnaire
+•	_DateCreated_ — date of creation of the questionnaire
 
-•	NumberOfPictures — the number of photos of the car
+•	_NumberOfPictures_ — the number of photos of the car
 
-•	PostalCode — postal code of the owner of the questionnaire (user)
+•	_PostalCode_ — postal code of the owner of the questionnaire (user)
 
-•	LastSeen — date of last user activity
+•	_LastSeen_ — date of last user activity
 
 ### Target 
 Target is price (in euro)

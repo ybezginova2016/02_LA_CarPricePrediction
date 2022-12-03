@@ -45,3 +45,11 @@ The client company, which distributes automobiles, is developing an application 
 
 ### Target 
 Target is price (in euro)
+
+## Project Outcomes
+- The best advised model is Gradient Boosting lgb.Dataset()
+- RMSE for validation data is 2248, while for test data is 2259, which are both less than agreed threshold 2500.
+- Execution time 453 ms, which is the quickest model amonth all.
+- CatBoostRegressor is also a good model (RMSE for validation data is the best comparing with DT, RF). But the exetution time for training is around 1 hour, which prevent to admit this as the best solution for business.
+
+### Code: https://github.com/ybezginova2016/02_LA_CarPricePrediction/blob/main/car_price_main.ipynb
